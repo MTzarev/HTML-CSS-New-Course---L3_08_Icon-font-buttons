@@ -1,0 +1,22 @@
+button :nth-child(1){
+    color: white;
+}
+button{
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+p:nth-of-type(1) button {
+    background-color: rgb(0, 143, 0);
+    color: white;
+}
+p:nth-of-type(2) button{
+    background-color: rgb(255, 145, 0);
+}
+p{
+    text-align: center;
+}
